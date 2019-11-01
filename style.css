@@ -1,0 +1,17 @@
+.myarrowup{
+	position:fixed;
+	right:50px;
+	bottom:50px;
+	width:auto;
+	height:auto;
+	z-index:2000;
+	padding:0;
+	border-style:none;
+	border-radius: 50%;
+	background: transparent;
+	outline: none;
+}
+.fa-chevron-circle-up{
+	font-size:50px;
+	color:rgba(255,246,0,0.57);
+}

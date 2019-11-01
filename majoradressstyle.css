@@ -1,0 +1,50 @@
+.majoradress{
+	background: #383838;
+}
+.mycontainer8{
+	width: 100%;
+	color:#fff;
+}
+.mycontainer8 .row div{
+	padding:0;
+}
+.mycontainer8 .row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mymap img{
+	width: 100%;
+}
+.mydivinfo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.smallcontainer{
+	width: 50%;
+	margin: auto;
+	line-height: 130%;
+}
+.smallcontainer div{
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding-bottom: 30px!important;
+}
+.smallcontainer p{
+	margin-bottom:0; 
+}
+.mydivinfo img{
+	width: 40px;
+	margin-right: 30px; 
+}
+@media(max-width: 768px){
+	.mycontainer8 .row{
+		display: block!important;
+	}
+	.smallcontainer{
+		width: 90%;
+		padding-top:30px!important;
+	}
+}

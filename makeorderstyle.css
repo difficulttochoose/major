@@ -1,0 +1,175 @@
+.makeorder{
+	background: #383838;
+}
+.mycontainer4{
+	width:80%;
+	margin: auto;
+	color:#fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.mycontainer4 input{
+	color:#000;
+}
+.mybut{
+	background: #e88c13;
+	border-radius: 50px;
+	border-style:none;
+	padding:12px 40px;
+	text-transform: uppercase;
+	width: 212px;
+}
+.rowbuts{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.delivery{
+	padding:40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.delivery div{
+	background: #6e6e6e;
+	border-radius: 5px;
+	text-align: center;
+	padding:30px;
+	max-width: 300px;
+	height: 242px;
+	position: relative;
+}
+.delivery img{
+	height: 70px;
+}
+.delivery div p{
+	position: absolute;
+	bottom:30px;
+	left:100px;
+}
+.delivery div span{
+	font-size: 16pt;
+	color:#e88c13;
+}
+.myadress{
+	padding:30px!important;
+	background: #6e6e6e;
+	border-radius: 5px 0 0 5px;
+	align-self: stretch;
+}
+.myadress button{
+	width: 100%;
+	height: 50px;
+	border-radius:5px;
+	border-style: none;
+	margin-bottom: 20px;
+	background: #242424;
+}
+.adress{
+	padding:0 40px;
+	display: flex;
+}
+.active{
+	border:2px solid #e88c13!important;
+}
+.mypicture{
+	padding-left:0!important;
+	padding-right: 0!important;
+}
+.mypicture img{
+	width: 100%;
+	height: auto;
+	border-radius: 0 5px 5px 0;
+}
+.inputadress{
+	padding:40px 0 0 0;
+	padding-left:25px!important;
+}
+.inputadress img{
+	transform: rotate(270deg);
+	width: 15px;
+	margin: 0 15px;
+}
+.inputadress span{
+	color: #e88c13;
+}
+.myadresses{
+	padding:0 40px!important;
+}
+.myadresses input{
+	height: 34px;
+}
+@media(max-width: 768px){
+	.delivery{
+		display: block;
+		width: 100%;
+		margin-left:0!important;
+		margin-right:0!important;
+	}
+	.delivery div{
+		margin-bottom: 25px!important;
+		width: 90%;
+		margin: auto;
+		float:none!important;
+	}
+	.adress{
+		display: block;
+	}
+	.myadress{
+		border-radius: 5px 5px 0 0;
+	}
+	.mypicture img{
+	 border-radius: 0 0 5px 5px;
+	}
+	.rowbuts{
+		display:block;
+		margin-left:0!important;
+		margin-right:0!important;
+		text-align:center;
+	}
+	.rowbuts button{
+		margin-bottom:10px;
+	}
+	.mycontainer4{
+		width: 100%;
+	}
+}
+@media(max-width: 991px){
+	.delivery{
+		display: block;
+		width: 100%;
+		margin-left:0!important;
+		margin-right:0!important;
+	}
+	.delivery div{
+		margin-bottom: 25px!important;
+		width: 90%;
+		margin: auto;
+		float:none!important;
+	}
+	.adress{
+		display: block;
+	}
+	.myadress{
+		border-radius: 5px 5px 0 0;
+	}
+	.mypicture img{
+	 	border-radius: 0 0 5px 5px;
+	}
+}
+@media(min-width:992px) and (max-width:1091px){
+	.mypicture{
+	}
+	.mypicture img{
+		height:100%;
+		width:100%;
+		align-self: stretch!important;
+	}
+}
+@media(max-width:1200px){
+	.delivery div{
+		margin-bottom: 25px!important;
+		width: 260px;
+		margin: auto;
+	}
+}

@@ -1,0 +1,104 @@
+.fromto{
+	background: #383838;
+}
+.mycontainer2{
+	width: 80%;
+	margin: auto;
+	color:#fff;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+.mycontainer2 input{
+	color:#000;
+}
+.mycontainer2 h3{
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 150%;
+}
+.mycontainer2 p{
+	text-align: center;
+}/*
+.mycaretorange{
+	overflow: hidden; 
+}
+.mycaretorange select{
+	position: relative!important;
+}
+.triangle-icon{
+	position: absolute!important;
+	top: 0!important;
+	right: 0!important;
+	background: #e88c13!important;
+	width: 30px;
+	height: 100%;
+	text-align: center;
+/*	margin:auto;*/
+}
+.triangle-icon img{
+	width: 20px;
+}
+.myfrom{
+	padding:0 40px!important;
+}
+.myto{
+	padding:0 40px!important;
+}
+.myselect{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+.mylable{
+	text-align:left!important;
+}
+.myform{
+	/*width:66%!important;*/
+	border-radius: 0!important;
+}
+.myformgroup{
+	margin-bottom: 40px!important; 
+	margin-right:0!important;
+	margin-left:0!important;
+}
+.butbut{
+	width: 100%;
+	background: #e88c13;
+	border-style:none;
+	font-size: 16pt;
+	text-align: left;
+	padding:7px 25px;
+	margin: 40px 0;
+}
+.mydata{
+	padding:0!important;
+	text-align: left;
+	padding-left:25px!important;
+}
+.mydata img{
+	width: 30px;
+	margin:0 15px 0 35px;
+}
+.mydata span{
+	text-decoration-line: underline;
+	text-decoration-style: dashed!important;
+	text-decoration-color: #e88c13;
+	color:#e88c13;
+}
+.myselect:after{
+	content:'\25BC';
+	position:absolute;
+	top:0;
+	right:0;
+	line-height:2;
+	background:orange;
+	color:black;
+	padding:3px 6px;
+}
+@media(max-width: 768px){
+	.mycontainer2{
+		width: 100%;
+	}
+	/*.myform{
+		width:100%!important;
+	}*/
+}

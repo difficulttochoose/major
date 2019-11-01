@@ -1,0 +1,18 @@
+.sendget{
+	background: #6e6e6e;
+}
+.mycontainer5{
+	width:80%;
+	margin: auto;
+	color:#fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.mycontainer5 input{
+	color:#000;
+}
+@media(max-width: 768px){
+	.mycontainer5{
+		width: 100%;
+	}
+}

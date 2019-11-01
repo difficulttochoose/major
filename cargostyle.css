@@ -1,0 +1,42 @@
+.cargo{
+	background: #6e6e6e;
+}
+.mycontainer3{
+	width:80%;
+	margin: auto;
+	color:#fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.mycontainer3 input{
+	color:#000;
+}
+.myformcontrol{
+	margin-right: 15px;
+	height: 34px;
+	padding: 6px 12px;
+}
+.myweight{
+	height: 34px;
+}
+.addcargo{
+	color:#e88c13!important;
+	padding-left:25px!important;
+	text-decoration-line:underline;
+}
+.addcargo img{
+	width: 30px!important;
+	margin-right: 15px;
+}
+.myinputs{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+@media(max-width: 768px){
+	.myformcontrol{
+		margin-right: 0;
+	}
+	.mycontainer3{
+		width: 100%;
+	}
+}

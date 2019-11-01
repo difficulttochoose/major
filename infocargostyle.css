@@ -1,0 +1,60 @@
+.infocargo{
+	background: #383838;
+}
+.mycontainer6{
+	width:80%;
+	margin: auto;
+	color:#fff;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.mydivdiv{
+	padding:0 40px!important;
+}
+.gray{
+	background: #6e6e6e;
+	padding: 10px 25px;
+	line-height: 200%;
+	height: 80px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.big{
+	font-size: 16pt;
+	color:#e88c13;
+}
+.orange{
+	color:#e88c13;
+	text-decoration-line: underline;
+}
+.mycheckbox{
+	margin-top: 0!important;
+}
+.mycheckbox label{
+	line-height: 144%;
+}
+.myline{
+	display: flex;
+	align-items: center;
+}
+.myissue{
+	padding-bottom: 40px;
+}
+.nomargin{
+	margin-bottom: 0!important;
+}
+.divbut{
+	text-align: center;
+	padding:20px 0;
+}
+@media(max-width: 768px){
+	.mycontainer6{
+		width: 100%;
+	}
+	.gray{
+		height: auto;
+	}
+	.myline{
+		display: block;
+	}
+}
